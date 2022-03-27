@@ -1,0 +1,107 @@
+    /* GLOBAL */
+    
+     :root {
+        --light-yellow: #EFC764;
+        --light-orange: #E68E7B;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        width: 100vw;
+        min-height: 100vh;
+        background: linear-gradient(115deg, var(--light-yellow), var(--light-orange));
+        font-family: 'Josefin Sans';
+    }
+    /* SCREEN */
+    
+    .screen {
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* CARD */
+    
+    .card {
+        max-width: 350px;
+        height: max-content;
+        background-color: rgba(255, 255, 255, .1);
+        border: 1px solid rgba(255, 255, 255, .4);
+        border-radius: 10px;
+        backdrop-filter: blur(30px);
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, .25);
+        padding: 30px 20px;
+    }
+    /* CARD HEADER */
+    
+    .card-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .card-header img {
+        border-radius: 50%;
+        width: 30%;
+        border: 1px solid rgba(255, 255, 255, .4);
+    }
+    
+    .name {
+        font-size: 35px;
+        color: #fff;
+        font-weight: bold;
+        padding: 10px;
+    }
+    
+    .description {
+        font-size: 16px;
+        color: #fff;
+    }
+    /* CARD CONTENT*/
+    
+    .content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .content a {
+        text-decoration: none;
+        color: #fff;
+        width: 25vw;
+        background-color: rgba(255, 255, 255, .1);
+        border: 1px solid rgba(255, 255, 255, .4);
+        border-radius: 20px;
+        backdrop-filter: blur(30px);
+        padding: 10px;
+        margin-top: 10px;
+        transition: 0.5s;
+    }
+    
+    .email:hover {
+        background-color: #ABB2B9;
+    }
+    
+    .github:hover {
+        background-color: #ABB2B9;
+    }
+    
+    .linkdln:hover {
+        background-color: #ABB2B9;
+    }
+    
+    .instagram:hover {
+        background-color: #ABB2B9;
+    }
+    
+    .twitter:hover {
+        background-color: #ABB2B9;
+    }
